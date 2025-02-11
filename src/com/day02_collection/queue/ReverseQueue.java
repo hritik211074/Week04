@@ -1,4 +1,4 @@
-package com.day02_collection.reverse_queue;
+package com.day02_collection.queue;
 
 import java.util.*;
 public class ReverseQueue {
