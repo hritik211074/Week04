@@ -21,7 +21,7 @@ public class ReverseQueue {
         // Create a scanner's object to read the user input
         Scanner sc=new Scanner(System.in);
 
-        Queue<Integer>qq=new PriorityQueue<>();
+        Queue<Integer>qq=new LinkedList<>();
 
         System.out.println("Enter the number of element :");
         int num=sc.nextInt();
@@ -30,6 +30,8 @@ public class ReverseQueue {
         for(int i=0;i<num;i++) {
             qq.add(sc.nextInt());
         }
+
+        System.out.println(qq);
         findReverseQueue(qq);
 
         System.out.println("Reverse queue is: "+qq);
