@@ -1,6 +1,4 @@
-package com.day02_collection.queue;
-
-import java.util.*;
+package com.day02_collection.queue_inteface;
 
 class CircularBuffer {
     private int[] buffer;
