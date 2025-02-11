@@ -46,7 +46,6 @@ public class ReverseList {
         arr2.add(3);
         arr2.add(4);
         arr2.add(5);
-
         // Call method to reverse the list
         reverseListUsingLinkedList(arr2);
         System.out.println("Reverse of list by using LinkedList is-> "+arr2);  // Printing the list
