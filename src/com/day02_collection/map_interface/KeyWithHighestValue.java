@@ -2,7 +2,7 @@ package com.day02_collection.map_interface;
 import java.io.*;
 import java.util.*;
 
-public class WordFrequency {
+public class KeyWithHighestValue {
     public static void main(String[] args) throws Exception {
         // Read file content
         BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\0111a\\OneDrive\\Desktop\\Diagram\\flight.txt"));
