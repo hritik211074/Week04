@@ -5,14 +5,12 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ExtractLinks {
+public class MultipleSpacesWithSingleSpace {
 
-    static ArrayList<String> extractlink(String text){
+    static String replaceMultipleSpaceWithSingleSpace(String text){
 
-        ArrayList<String>linkList=new ArrayList<>();
         //Define a regular expression
-
-        String regex= "http[s]*://[a-z0-9.]+[a-zA-Z]{2,}";
+        String regex= "\\s+";
         // Pattern to find the pattern in regex string
         Pattern pp=Pattern.compile(regex);
 
@@ -20,10 +18,8 @@ public class ExtractLinks {
         Matcher mm=pp.matcher(text);
 
         // Store the link which are in text
-        while(mm.find()){
-            linkList.add(mm.group());
-        }
-        return linkList;
+        String result = mm.replaceAll(" ");
+        return result;
     }
     public static void main(String[] args) {
         //Create a scanner object to read user input
@@ -33,16 +29,9 @@ public class ExtractLinks {
         System.out.println("Enter the text to find all the link: ");
         String text = sc.nextLine();
 
-        // Store the link
-        ArrayList<String>linkList = extractlink(text);
+        // Store the dates
+        String result = replaceMultipleSpaceWithSingleSpace(text);
 
-        if (linkList.size() > 0) {
-            System.out.println("Email is: ");
-            for(int i=0;i<linkList.size();i++){
-                System.out.println(i+1+"-> "+linkList.get(i));
-            }
-        } else {
-            System.out.println("No link found");
-        }
+        System.out.println("Modified string is: "+result);
     }
 }
