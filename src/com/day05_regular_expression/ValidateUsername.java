@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class ValidateUsername {
     static boolean validateEmail(String email){
         //Define a regular expression
-        String regex="^[a-zA-Z]+[0-9_]+{5,15}$";
+        String regex="^[a-zA-Z][a-zA-Z0-9_]{4,15}$";
 
         // Pattern to find the pattern in regex string
         Pattern pp=Pattern.compile(regex);
@@ -26,7 +26,7 @@ public class ValidateUsername {
         Scanner sc=new Scanner(System.in);
 
         // Read user input
-        System.out.println("Enter the email to  validate");
+        System.out.println("Enter the user name to  validate");
         String email=sc.nextLine();
         boolean isValid = validateEmail(email);
 
