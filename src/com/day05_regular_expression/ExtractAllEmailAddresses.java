@@ -31,6 +31,8 @@ public class ExtractAllEmailAddresses {
         // Read user input
         System.out.println("Enter the text to find all the email: ");
         String text = sc.nextLine();
+
+        // Store all emails
         ArrayList<String>emailList = extractEmail(text);
 
         if (emailList.size() > 0) {
