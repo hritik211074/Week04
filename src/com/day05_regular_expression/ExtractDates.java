@@ -37,7 +37,7 @@ public class ExtractDates {
         ArrayList<String>dateList = extractDatesFromText(text);
 
         if (dateList.size() > 0) {
-            System.out.println("Email is: ");
+            System.out.println("Dates is: ");
             for(int i=0;i<dateList.size();i++){
                 System.out.println(i+1+"-> "+dateList.get(i));
             }
