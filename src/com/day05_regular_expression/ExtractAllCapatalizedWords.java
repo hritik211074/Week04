@@ -34,7 +34,7 @@ public class ExtractAllCapatalizedWords {
         ArrayList<String>wordList = extractCapatalizedWords(text);
 
         if (wordList.size() > 0) {
-            System.out.println("Email is: ");
+            System.out.println("Word is: ");
             for(int i=0;i<wordList.size();i++){
                 System.out.println(i+1+"-> "+wordList.get(i));
             }
