@@ -11,6 +11,7 @@ public class ValidateCreditCard {
         //Create a scanner object to read user input
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter the card number");
         String card1=sc.nextLine();
 
         System.out.println(isValidCard(card1) ? "Valid Card" : "Invalid Card");
