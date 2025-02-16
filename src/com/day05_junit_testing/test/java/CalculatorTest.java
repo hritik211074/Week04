@@ -1,4 +1,4 @@
-import org.example.Calculator;
+package com.day05_junit_testing.test.java;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

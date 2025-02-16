@@ -1,3 +1,4 @@
+package com.day05_junit_testing.test.java;
 import org.example.DateFormatter;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
