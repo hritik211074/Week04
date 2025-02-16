@@ -1,9 +1,4 @@
-package org.example;
-
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Test;
+package com.day05_junit_testing.main.java.org.example;
 
 class DBConnection {
     private boolean isConnected;
@@ -20,8 +15,8 @@ class DBConnection {
         System.out.println("Database disconnected.");
     }
 
+    // Method to check if connected
     public boolean isConnected() {
         return isConnected;
     }
 }
-

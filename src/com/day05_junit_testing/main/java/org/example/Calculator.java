@@ -1,4 +1,4 @@
-package org.example;
+package com.day05_junit_testing.main.java.org.example;
 
 import java.util.*;
 public class Calculator {

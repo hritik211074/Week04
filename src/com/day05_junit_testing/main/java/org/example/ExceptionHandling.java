@@ -1,4 +1,4 @@
-package org.example;
+package com.day05_junit_testing.main.java.org.example;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;

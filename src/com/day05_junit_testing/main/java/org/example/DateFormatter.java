@@ -1,4 +1,4 @@
-package org.example;
+package com.day05_junit_testing.main.java.org.example;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
