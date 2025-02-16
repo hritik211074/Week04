@@ -41,6 +41,7 @@ class User {
             e.printStackTrace();
         }
     }
+
 }
 
 //  Test the validation
