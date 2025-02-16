@@ -15,6 +15,7 @@ class ListManagerTest {
         testList = new ArrayList<>();
     }
 
+
     @Test
     void testAddElement() {
         listManager.addElement(testList, 5);
