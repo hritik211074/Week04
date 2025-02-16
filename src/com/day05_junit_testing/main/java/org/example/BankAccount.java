@@ -9,6 +9,7 @@ public class BankAccount {
 
     public void deposit(double amount) {
         if (amount > 0) {
+
             balance += amount;
         } else {
             throw new IllegalArgumentException("Deposit amount must be positive");
