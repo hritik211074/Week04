@@ -11,6 +11,7 @@ class ExceptionHandlingTest {
     }
 
     @Test
+
     void testDivideByZero() {
         assertThrows(ArithmeticException.class, () -> exceptionHandling.divide(10, 0));
     }
