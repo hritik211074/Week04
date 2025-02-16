@@ -2,7 +2,6 @@ package com.day05_junit_testing.test.java;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
 public class CalculatorTest {
     Calculator calculator=new Calculator();
 
