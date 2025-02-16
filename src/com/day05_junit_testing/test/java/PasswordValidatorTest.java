@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class PasswordValidatorTest {
 
+
     @Test
     void testValidPasswords() {
         assertTrue(PasswordValidator.isValidPassword("Secure123"));

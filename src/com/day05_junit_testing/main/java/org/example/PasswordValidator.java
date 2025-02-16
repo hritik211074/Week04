@@ -13,6 +13,7 @@ public class PasswordValidator {
             if (Character.isUpperCase(ch)) {
                 hasUpperCase = true;
             }
+
             if (Character.isDigit(ch)) {
                 hasDigit = true;
             }
