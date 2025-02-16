@@ -11,6 +11,7 @@ class ListManager {
         list.add(element);
     }
 
+
     // Method to remove an element from the list
     public void removeElement(List<Integer> list, int element) {
         list.remove(Integer.valueOf(element));
