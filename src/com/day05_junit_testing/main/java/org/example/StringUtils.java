@@ -1,9 +1,5 @@
 package com.day05_junit_testing.main.java.org.example; // Ensure this matches your project structure
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
 public class StringUtils {
     // Method to reverse a string
     public String reverse(String str) {

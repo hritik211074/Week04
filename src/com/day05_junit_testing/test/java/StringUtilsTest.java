@@ -1,6 +1,6 @@
 package com.day05_junit_testing.test.java;
-package org.example;
 
+import com.day05_junit_testing.main.java.org.example.StringUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
